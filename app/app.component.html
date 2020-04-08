@@ -1,0 +1,19 @@
+<div class="content" role="main">
+  <!-- Highlight Card -->
+  <div class="card highlight-card card-small">
+  <span>{{ title }}</span>
+</div>
+
+<div class="container">
+  <br>
+  <h2>Escolha a moeda desejada: </h2>
+  <!-- <img [src]="assets/img/dolar.jpg"> -->
+  <div class="menulink">
+    <a routerLink="real" class="opcao">Dólar Canadense</a>
+    <a routerLink="dolar" class="opcao">Dólar Americano</a>
+    <a routerLink="euro" class="opcao">Euro x Real</a>
+
+  </div>
+  <router-outlet></router-outlet>
+</div>
+

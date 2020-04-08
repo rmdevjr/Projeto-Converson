@@ -1,0 +1,11 @@
+<img class="imgBandeiras" src="https://s3-sa-east-1.amazonaws.com/beecambioimages/currency-flags/CAD.svg">
+<p>Real x Dolar Canadense :</p>
+<input type="number" class="inputReal" placeholder="R$3,74" (keyup)="enviaReal($event)"/>
+<p>Resultado = {{numResult | currency:"US$"}}</p>
+
+<br/>
+
+<!-- <div class="imgDolar"></div> -->
+<p>Dolar Canadense x Real :</p>
+<input type="number" class="inputReal" placeholder="R$1,00" (keyup)="enviaDolar($event)"/>
+<p>Resultado = {{realDolar | currency:'BRL':'symbol':'3.2-2':'pt'}}</p>

@@ -1,0 +1,23 @@
+/* .imagemDolar{
+    border-image: url("https://i.dlpng.com/static/png/6650528_preview.png");
+} */
+
+p{
+    color: white;
+    font-size: 20px;
+}
+
+.inputDolar {
+    
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px solid rgb(133, 106, 168);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.imgBandeiras{
+    margin-top: 10px;
+    border-radius: 50%;
+}
